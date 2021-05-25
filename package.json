@@ -2,7 +2,7 @@
   "name": "monsters-rolodex",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://LanhNguyen2697/github.io/monsters-rodex",
+  "homepage": "https://LanhNguyen269.github.io/monsters-rodex",
   "dependencies": {
     "@babel/core": "7.12.3",
     "@pmmmwh/react-refresh-webpack-plugin": "0.4.3",
@@ -76,7 +76,7 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "predeploy": "yarn build",
-    "deloy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
